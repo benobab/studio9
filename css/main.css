@@ -1,7 +1,32 @@
 /** MAIN CSS - OVERIDES BOOTSTRAP STYLES **/
+body, .blue-grad {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0+100;Blue+to+Transparent */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
 
 footer {
 	text-align: center;
+}
+
+.min-max {
+	max-width: 674px;
+	max-height: 420px;
+}
+
+.radius-img {
+	border-radius: 20px;
+}
+
+.circle-radius {
+	border-radius: 50%;
+}
+
+.width-img {
+	width: 100%;
 }
 
 .navbar {
@@ -24,6 +49,26 @@ span .centered{
 
 .no-border {
 	border-style: none;
+}
+
+.padding-footer-text {
+	padding-top: 7px;
+}
+
+.text-padding {
+	padding-top: 10px;
+}
+
+.tangerine {
+	font-family: 'Tangerine';
+}
+
+.aside-font-size {
+	font-size: 1.5em;
+}
+
+.margin-top {
+	margin-top: 20px;
 }
 
 h1,
@@ -54,12 +99,13 @@ h4 {
 }
 
 .gradient-purple {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fba6e1+0,fd89d7+0,fcecfc+42,fcecfc+42,fcecfc+70 */
-background: #fba6e1; /* Old browsers */
-background: -moz-radial-gradient(center, ellipse cover,  #fba6e1 0%, #fd89d7 0%, #fcecfc 42%, #fcecfc 42%, #fcecfc 70%); /* FF3.6-15 */
-background: -webkit-radial-gradient(center, ellipse cover,  #fba6e1 0%,#fd89d7 0%,#fcecfc 42%,#fcecfc 42%,#fcecfc 70%); /* Chrome10-25,Safari5.1-6 */
-background: radial-gradient(ellipse at center,  #fba6e1 0%,#fd89d7 0%,#fcecfc 42%,#fcecfc 42%,#fcecfc 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fba6e1', endColorstr='#fcecfc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+5,000000+91&0+41,0.65+99 */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 5%, rgba(0,0,0,0) 41%, rgba(0,0,0,0.56) 91%, rgba(0,0,0,0.65) 99%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 5%,rgba(0,0,0,0) 41%,rgba(0,0,0,0.56) 91%,rgba(0,0,0,0.65) 99%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 5%,rgba(0,0,0,0) 41%,rgba(0,0,0,0.56) 91%,rgba(0,0,0,0.65) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
 
 }
 
