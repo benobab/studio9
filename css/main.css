@@ -7,3 +7,61 @@ footer {
 .navbar {
 	background-color: ;
 }
+
+img {
+	border: 1px solid purple;
+	margin: auto;
+}
+
+span .centered{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.centered {
+	text-align: center;
+}
+
+.no-border {
+	border-style: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Tangerine';
+}
+
+h1 {
+	font-size: 5em;
+}
+
+h2 {
+	font-size: 4em;
+}
+
+h3{
+	font-size: 3em;
+}
+
+h4 {
+	font-size: 2em;
+}
+
+.fill {
+	background-color: white;
+}
+
+.gradient-purple {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fba6e1+0,fd89d7+0,fcecfc+42,fcecfc+42,fcecfc+70 */
+background: #fba6e1; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #fba6e1 0%, #fd89d7 0%, #fcecfc 42%, #fcecfc 42%, #fcecfc 70%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #fba6e1 0%,#fd89d7 0%,#fcecfc 42%,#fcecfc 42%,#fcecfc 70%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #fba6e1 0%,#fd89d7 0%,#fcecfc 42%,#fcecfc 42%,#fcecfc 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fba6e1', endColorstr='#fcecfc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+
+
