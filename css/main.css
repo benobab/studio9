@@ -8,13 +8,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 
 }
 
+.margin-bottom {
+	margin-bottom: 20px;
+}
+
 footer {
 	text-align: center;
 }
 
+.contact-page {
+	background-color: #fff;
+	border-radius: 20px;
+}
+
+.service-tabs {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.purple-text{
+	color: #eee2ff;
+}
+
 .min-max {
-	max-width: 674px;
-	max-height: 420px;
+	min-width: 674px;
+	min-height: 420px;
 }
 
 .radius-img {
@@ -27,6 +46,11 @@ footer {
 
 .width-img {
 	width: 100%;
+}
+
+#main-logo-small {
+	width: 150px;
+	height: 150px;
 }
 
 .navbar {
