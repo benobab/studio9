@@ -1,11 +1,26 @@
 /** MAIN CSS - OVERIDES BOOTSTRAP STYLES **/
-body, .blue-grad {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0+100;Blue+to+Transparent */
-background: -moz-radial-gradient(center, ellipse cover,  rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
-background: -webkit-radial-gradient(center, ellipse cover,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
-background: radial-gradient(ellipse at center,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
+.lefty{
+	display: inline;
+	float: left;
+}
+
+
+body {
+	background: url('../images/bluebksm.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.righty {
+	display: inline;
+	float: right;
+}
+
+.clear {
+	clear: both;
 }
 
 .margin-bottom {
@@ -17,14 +32,15 @@ footer {
 }
 
 .navbar {
-	background-color: #666666;
+	background-color: #000000;
+	opacity: 0.8;
 }
 
-.navbar-brand,
+/*.navbar-brand,
 .collapse {
 	font-family: 'Tangerine';
 	font-size: 2em;
-}
+}*/
 
 .contact-page {
 	background-color: #fff;
@@ -73,8 +89,12 @@ footer {
 }
 
 img {
-	border: 1px solid purple;
+	/*border: 1px solid purple;*/
 	margin: auto;
+}
+
+html {
+	font-family: 'Baloo Paaji', cursive;
 }
 
 span .centered{
@@ -86,9 +106,10 @@ span .centered{
 	text-align: center;
 }
 
-.no-border {
+/*.no-border {
 	border-style: none;
-}
+}*/
+
 
 .padding-footer-text {
 	padding-top: 7px;
@@ -98,9 +119,6 @@ span .centered{
 	padding-top: 10px;
 }
 
-.tangerine {
-	font-family: 'Tangerine';
-}
 
 .aside-font-size {
 	font-size: 1.5em;
@@ -114,7 +132,7 @@ h1,
 h2,
 h3,
 h4 {
-	font-family: 'Tangerine';
+	font-family: 'Baloo Paaji', cursive;
 }
 
 h1 {
@@ -133,10 +151,6 @@ h4 {
 	font-size: 2em;
 }
 
-.fill {
-	background-color: white;
-}
-
 .gradient-purple {
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+5,000000+91&0+41,0.65+99 */
 background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 5%, rgba(0,0,0,0) 41%, rgba(0,0,0,0.56) 91%, rgba(0,0,0,0.65) 99%); /* FF3.6-15 */
@@ -146,7 +160,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 }
 
-@media
+*{
+	font-family: 'Baloo Paaji', cursive;
+}
 
 
 
