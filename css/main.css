@@ -1,10 +1,23 @@
 /** MAIN CSS - OVERIDES BOOTSTRAP STYLES **/
 
-.lefty{
+.lefty {
 	display: inline;
 	float: left;
 }
 
+.margin-vertical {
+	margin: 10px 0px;
+}
+
+.icon-push {
+	margin-right: 10px;
+	margin-top: 15px;
+}
+
+#map{
+	height: 100%;
+	width: 100%;
+}
 
 body {
 	background: url('../images/bluebksm.jpg') no-repeat center center fixed; 
@@ -33,7 +46,6 @@ footer {
 
 .navbar {
 	background-color: #000000;
-	opacity: 0.8;
 }
 
 /*.navbar-brand,
@@ -89,7 +101,7 @@ footer {
 }
 
 img {
-	/*border: 1px solid purple;*/
+	border: 2px solid #000;
 	margin: auto;
 }
 
@@ -97,18 +109,24 @@ html {
 	font-family: 'Baloo Paaji', cursive;
 }
 
-span .centered{
+/*span .centered{
 	margin: 0 auto;
 	text-align: center;
-}
+}*/
 
 .centered {
 	text-align: center;
 }
 
-/*.no-border {
+.no-border {
 	border-style: none;
-}*/
+}
+
+#logo-shrink {
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+}
 
 
 .padding-footer-text {
@@ -128,11 +146,8 @@ span .centered{
 	margin-top: 20px;
 }
 
-h1,
-h2,
-h3,
-h4 {
-	font-family: 'Baloo Paaji', cursive;
+small {
+	font-color: #a100af;
 }
 
 h1 {
@@ -143,7 +158,7 @@ h2 {
 	font-size: 4em;
 }
 
-h3{
+h3 {
 	font-size: 3em;
 }
 
@@ -151,18 +166,61 @@ h4 {
 	font-size: 2em;
 }
 
-.gradient-purple {
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+5,000000+91&0+41,0.65+99 */
-background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 5%, rgba(0,0,0,0) 41%, rgba(0,0,0,0.56) 91%, rgba(0,0,0,0.65) 99%); /* FF3.6-15 */
-background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 5%,rgba(0,0,0,0) 41%,rgba(0,0,0,0.56) 91%,rgba(0,0,0,0.65) 99%); /* Chrome10-25,Safari5.1-6 */
-background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 5%,rgba(0,0,0,0) 41%,rgba(0,0,0,0.56) 91%,rgba(0,0,0,0.65) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-}
-
 *{
 	font-family: 'Baloo Paaji', cursive;
 }
 
+@media screen and (max-width: 959px){
+	h1 {
+	font-size: 4em;
+	}
 
+	h2 {
+		font-size: 3em;
+	}
+
+	h3{
+		font-size: 2em;
+	}
+
+	h4 {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 640px){
+	h1 {
+	font-size: 2em;
+	}
+
+	h2 {
+		font-size: 2.5em;
+	}
+
+	h3{
+		font-size: 2em;
+	}
+
+	h4 {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 320px){
+	h1 {
+	font-size: 1em;
+	}
+
+	h2 {
+		font-size: 1em;
+	}
+
+	h3{
+		font-size: 1em;
+	}
+
+	h4 {
+		font-size: 1em;
+	}
+}
 
